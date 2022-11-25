@@ -1,0 +1,40 @@
+#outer
+{
+    width:100%;
+    height: 1000px;
+  
+    background:powderblue;
+}
+.header
+{
+    width: 100%;
+    height: 100px;
+    background:lime;
+}
+.mid
+{
+    width: 100%;
+    height: 800x;
+    background:blue;
+}
+.footer
+{
+    width: 100%;
+    height: 100px;
+    background:brown;
+    margin-top:  800px;;
+}
+.midLeft
+{
+    height:800px;
+    width:50%;
+    background:tomato;
+    float:left;
+}
+.midRight
+{
+    height:800px;
+    width:50%;
+    background:gray;
+    float:left;
+}

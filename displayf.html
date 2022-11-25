@@ -1,0 +1,41 @@
+<html>
+    <head></head>
+    <body>
+        <style>
+            .item1{grid-area:header;}
+            .item2{grid-area:menu;}
+            .item3{grid-area:mleft;}
+            .item4{grid-area:mright;}
+            .item5{grid-area:footer;}
+            .grid-container
+            {
+                display:grid;
+                grid-template-areas:'header header header header header header'
+                                    'menu mleft mleft mright mright mright'
+                                    'menu footer footer footer footer footer';
+               gap:10px;
+               background-color:dodgerblue;
+               padding: 10px;
+
+            }
+            .grid-container>div
+            {
+                background-color:darkcyan;
+                text-align: center;
+                font-size: 30px;
+                padding:100px 0;
+            }
+        </style>
+        <h1>
+            this is page for grid
+        </h1>
+        <div class="grid-container">
+            <div class="item1">header</div>
+            <div class="item2">menu</div>
+            <div class="item3">mleft</div>
+            <div class="item4">mright</div>
+            <div class="item5">footer</div>
+
+        </div>
+    </body>
+</html>

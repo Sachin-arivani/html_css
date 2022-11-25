@@ -1,0 +1,525 @@
+.outer {
+    width: 100%;
+    height: auto;
+
+}
+
+.first {
+    background-image: url(13.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.like-menu {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    text-align: center;
+}
+
+.like-menu li {
+    list-style-type: none;
+}
+
+.like-menu ul {
+    display: flex;
+}
+
+.like-menu li {
+    float: left;
+}
+
+.like-menu ul li a {
+
+    color: bisque;
+
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 16px;
+
+}
+
+.tec {
+    font-size: 30px;
+    color: gray;
+}
+
+#ntec {
+    font-size: 20px;
+    color: palevioletred;
+}
+
+/* second */
+
+
+.second {
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+}
+
+.about-left {
+
+    height: 500px;
+    width: 50%;
+
+
+}
+
+.about-left {
+    background-image: url(bg2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.about-right {
+    height: 500px;
+    width: 50%;
+
+}
+
+.btn {
+    margin: 50px;
+    font-size: 20px;
+    color: tomato;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.para2 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.para3 {
+    font-size: 20px;
+    margin-left: 25px;
+    color: gray;
+
+}
+
+/* third */
+
+.third {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.servi-left {
+    width: 50%;
+    height: 500px;
+}
+
+.servi-right {
+    width: 50%;
+    height: 500px;
+}
+
+.btn2 {
+    margin: 50px;
+    font-size: 20px;
+    color: tomato;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.para4 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.para5 {
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+.servi-right .box1 {
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.servi-right .box2 {
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.servi-right .box3 {
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* forth */
+.fourth {
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.portfolio-Up {
+    height: 100px;
+    width: 100%;
+
+
+
+}
+
+.portfolio-Down {
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+
+}
+
+.para7 {
+    font-size: 30px;
+    color: tomato;
+    margin-left: 50px;
+
+}
+
+.para8 {
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+}
+
+/* fifth */
+.fifth {
+    height: 400px;
+    width: 100%;
+   
+}
+
+.contact-up {
+    width: 100%;
+    height: 100px;
+   
+
+}
+
+.contact-down {
+    width: 100%;
+    height: 300px;
+   
+}
+
+.para9 {
+    font-size: 30px;
+    color: red;
+    margin-left: 50px;
+}
+
+.para10 {
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.para11 {
+    font-size: 20px;
+    color: gray;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.para12 {
+    font-size: 20px;
+    color: brown;
+    margin-left: 50px;
+}
+
+.contact-down-left {
+    height: 300px;
+    width: 50%;
+   
+    float: left;
+    background-color: aliceblue;
+}
+
+.contact-down-right {
+    height: 300px;
+    width: 49%;
+   
+    float: left;
+    background-image: url(bg6.jpg);
+}
+
+.form1 {
+    margin-left: 50px;
+    margin-top: 20px;
+    ;
+
+}
+
+.form1 input {
+    background: transparent;
+    border: 0px;
+    border-bottom:1px solid black;
+
+}
+
+.para14 {
+    font-size: 15px;
+    color: gray;
+    margin-left: 30px;
+}
+
+.imgfo
+{
+    border-radius: 10px;
+    height: 250px;
+
+}
+.siz
+{
+    background-image: url(bg8.png);
+    width: 100%;
+    height: 400px;
+    
+    
+}
+.siz-left
+{
+    width: 50%;
+    height: 400px;
+  
+    float: left;
+}
+.siz-right
+{
+    width: 49%;
+    height: 400px;
+   
+    float: left;
+}
+.para15
+{
+    font-size: 50px;
+    margin-left: 30;
+}
+.para16
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.para17
+{
+    font-size: 20px;
+    color:gray;
+    margin-left: 130px;
+    margin-top:130px;
+    background-color: transparent;
+}
+.seven
+{
+    height: 400px;
+    width: 100%;
+   
+}
+.myNews-up
+{
+  
+    width:100%;
+   
+}
+.myNews-down
+{
+    height: 300px;
+    width:100%;
+    
+    display:flex;
+    justify-content: space-between;
+}
+.para18
+{
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+.para19
+{
+    font-size: 20px;
+    color:gray;
+    margin-left: 20px;
+} 
+.para20
+{
+    font-size:20px;
+    margin-left:20px;
+    margin-top:10px;
+}
+.img-ne1
+{
+    float:left;
+   margin-right:80px;
+   border-radius: 10px;
+}
+.img-ne2
+{
+    float:left;
+    margin-left:80px;
+    border-radius: 10px;
+}
+
+/* eight */
+.eight
+{
+   height: 400px;
+   width: 100%;
+   
+}
+.eight-left
+{
+    height: 400px;
+   width: 50%;
+  
+   float:left;
+}
+.eight-right
+{
+    height: 400px;
+   width: 49%;
+  
+   float:left;
+}
+.ei-le-ro1
+{
+    height:200px;
+    width:100%;
+    
+}
+.ei-le-ro2
+{
+    height:200px;
+    width:100%;
+   
+}
+.ei-le-colr11
+{
+    height: 200px;
+    width: 50%;
+   
+    float:left;
+}
+.ei-le-colr12
+{
+    height: 200px;
+    width: 49%;
+   
+    float:left;
+}
+
+.ei-le-colr21
+{
+    height: 200px;
+    width: 50%;
+    
+    float:left;
+}
+.ei-le-colr22
+{
+    height: 200px;
+    width: 49%;
+   
+    float:left;
+}
+.imgc1
+{
+    height: 180px;
+    width:48%;
+    border-radius: 5%;
+}
+.imgc2
+{
+    height: 180px;
+    width:48%;
+    border-radius: 5%;
+}
+.imgc3
+{
+    height: 180px;
+    width:48%;
+    border-radius: 5%;
+}
+.imgc4
+{
+    height: 180px;
+    width:48%;
+    border-radius: 5%;
+}
+.para22
+{
+    font-size:20px;
+    margin-left: 20px;
+    color:gray;
+}
+.para23
+{
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color:gray;
+}
+
+.para25
+{
+    font-size:20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color:gray;
+}
+
+.para24
+{
+    font-size:15px;
+   
+    margin-left: 10px;
+    color:gray;
+}
+.para26
+{
+    font-size:15px;
+    
+    margin-left: 10px;
+    color:gray;
+}
+.para21
+{
+    font-size:30px;
+    
+    margin-left: 30px;
+    color:red;
+}
