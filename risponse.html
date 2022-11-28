@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .menu{
+                float: left;
+                width: 20%;
+            }
+            .menu-item{
+                padding: 8px;
+                margin-top: 7px;
+                border-bottom: 1px solid gray;
+            }
+            .main{
+                float: left;
+                width: 60%;
+                padding: 0 20px;
+                overflow: hidden;
+            }
+            @media only screen and (max-width:800px){
+                /* for tabelt */
+                .main
+                {
+                    width: 80%;
+                    padding: 0;
+                }
+                
+            }
+            @media only screen and (max-width:300px){
+               .main ,.main
+            {
+                    width: 100%;
+            }
+
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="tree">
+            <h1>cnique tree</h1>
+            <h3>increse the browser window </h3>
+        </div>
+
+        <div id="over-flow">
+            <div class="menu">
+                <div class="menu-item">heloo</div>
+                <div class="menu-item">go-on</div>
+                <div class="menu-item">long-foff</div>
+                <div class="menu-item">sofrpo</div>
+            </div>
+
+            <div class="main">
+                <h2>this is heading</h2>
+                <p>he walk from Monterosso to Riomaggiore will take you approximately two hours, give or take an 
+                    hour depending on the weather conditions and your physical shape.</p>
+                    <img src="cuting.jpg">
+            </div>
+        </div>
+    </body>
+</html>
