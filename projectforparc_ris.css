@@ -1,0 +1,211 @@
+@media only screen and (max-width: 600px) {
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-border {
+
+        margin-left: 0px;
+
+    }
+
+    .pg-dw-im {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .images {
+
+        background-size: 100% 40%;
+
+    }
+
+    .box {
+
+        color: #000000;
+        margin-top: 103px;
+        font-size: 14px;
+        justify-content: center;
+
+    }
+
+    .images .font1 h1 {
+        font-size: 23px;
+
+
+    }
+
+    .font2 {
+
+        font-size: 14px;
+    }
+
+    .btn1 {
+        font-size: 18px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nave {
+        height: 82px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .font3 {
+        font-size: 28px;
+    }
+
+    .font4 {
+        font-size: 16px;
+    }
+
+    .font5 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .pagethree {
+
+        flex-direction: column;
+
+    }
+
+    .pagethree-left {
+        display: flex;
+        align-items: center;
+        align-content: stretch;
+        display: block;
+        justify-content: flex-start;
+    }
+
+    .rig-ph {
+
+        align-items: center;
+    }
+
+    .pg-top-font .font13 {
+        font-size: 16px;
+    }
+
+    .pg-top-font .font14 {
+        font-size: 15px;
+    }
+
+    p.font15 {
+        text-align: center;
+    }
+    .dw-im1 {
+        background-image: url(styling.jpeg);
+        height: 350px;
+        width: 100%;
+        background-repeat: no-repeat;
+        margin: 20px;
+    }
+    .dw-im2 {
+        width: 100%;
+       
+    }
+    .dw-im3 {
+       
+        width: 100%;
+        
+    }
+
+    .pagesix {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pageseven {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+
+    #pageseven-uper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    #form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .form-border {
+        border: 7px solid gold;
+        width: 75%;
+    }
+    #page-eight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .hading-in-one {
+        font-size: 22px;
+    }
+    .hading-in-two {
+        font-size: 18px;
+    }
+    #back-im {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        text-align: center;
+        flex-direction: column;
+    }
+    .back-im-one {
+        width: 100%;
+    }
+    .back-im-two {
+        
+        width: 100%;
+    }
+    .back-im-three {
+      
+        width: 100%;
+    }
+    .back-im-four {
+     
+        width: 100%;
+    }
+    .pagefive-inner {
+        height: 400px;
+        width: 100%;
+        background-color: gray;
+        margin: 50px 50px 50px 50px;
+        padding: 10px;
+        text-align: center;
+    }
+    .font35 {
+        margin-left: 0px;
+    }
+}

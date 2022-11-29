@@ -2,7 +2,9 @@
 
 <head>
   <title>doGo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="projectforparc.css" />
+  <link rel="stylesheet" href="projectforparc_ris.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -10,40 +12,52 @@
 
 <body>
   <div id="outer">
-    <div class="menu">
-      <ul>
-        <span class="fafa1">
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </span>
+    <div class="menu h-nave">
+      <ul class="nav-list v-class ">
+        <li> <i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-facebook"></i></li>
+
+        <li> <i class="fa-brands fa-youtube"></i></li>
+
         <li><a href="#">HOME</a></li>
         <li><a href="#">SHANG</a></li>
-        <h1>SHAGA</h1>
+
+
+        <li>
+          <h1 class="logo-cen">SHAGA</h1>
+        </li>
+
         <li><a href="#">SHOP</a></li>
         <li><a href="#">PAGES</a></li>
 
-        <span class="fafa2">
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-chrome"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-heart"></i>
-        </span>
+        <li> <i class="fa-brands fa-github"></i></li>
+        <li><i class="fa-brands fa-chrome"></i></li>
+
+        <li> <i class="fa-brands fa-facebook"></i></li>
+        <li> <i class="fa-brands fa-heart"></i></li>
       </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </div>
 
     <div class="pageone">
       <div class="images">
-        <span class="font1">
-          <h1>Best Barber Collection</h1>
-        </span>
-        <span class="font2">
-          <p>SELFCONFIDENT. GROMING. LIFESTYLE</p>
-        </span>
+        <div class="images-font">
+          <span class="font1">
+            <h1>Best Barber Collection</h1>
+          </span>
+          <span class="font2">
+            <p>SELFCONFIDENT. GROMING. LIFESTYLE</p>
+          </span>
 
-        <span>
-          <button class="btn1">SHOP NOW</button>
-        </span>
+          <span>
+            <button class="btn1">SHOP NOW</button>
+          </span>
+        </div>
+
 
         <span class="box">
           <p>OPENING HOURS</p>
@@ -74,7 +88,7 @@
       </span>
 
       <span>
-        <img src="sign.jpg" width="400px" height="300px" />
+        <img src="sign.jpg" class="img_sign" />
       </span>
 
       <span class="font6">
@@ -130,9 +144,10 @@
           <p class="font14">Trendy Salon & Spa</p>
           <p class="font15">
             <span>Learn ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor</span>
-            <br />
-            <span class="font16">incididunt ut labore et dolore mahna aliqua.</span>
+              eiusmod tempor
+              <br />
+              incididunt ut labore et dolore mahna aliqua.
+            </span>
           </p>
         </span>
       </div>
@@ -335,10 +350,11 @@
         </span>
       </div>
     </div>
-    
 
-    </div>
+
   </div>
+  </div>
+  <script src="prac_resp.js"></script>
 </body>
 
 </html>
